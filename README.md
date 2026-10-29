@@ -17,6 +17,9 @@ By analyzing the historical shipping data, I identified critical inefficiencies 
 2. **High-Risk Product Categories:** By comparing scheduled transit times versus actual transit times, I identified the top 5 product categories causing the worst delays. 
    * **Soccer Equipment** averages a delay of **1.87 days** past the scheduled arrival.
    * **As Seen on TV!** and **Women's Golf Clubs** average delays of **1.79** and **1.75 days**, respectively.
+   Overall Network Reliability: Compared the global ratio of on-time versus delayed shipments to establish a baseline supply chain failure rate.
+
+Soccer Category Deep-Dive: Isolated the worst-performing product category (Soccer) to analyze its specific delivery lifecycle and average delay metrics.
 
 ## 💻 Sample SQL Methodology
 To extract the product category risks, I utilized the following SQL logic to calculate the exact average delay in days:
